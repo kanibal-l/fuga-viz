@@ -909,7 +909,7 @@ export default function App() {
                 Режим: {visualMode === 'colorful' ? "Цветной" : "Минимализм"}
               </button>
               <button type="button" onClick={() => setAccentTheme((prev) => !prev)} className={`min-h-10 rounded px-4 text-sm ${accentTheme ? "bg-white text-black" : "border border-white/20"}`}>
-                Акцент: {accentTheme ? "вкл" : "выкл"}
+                Тема: {accentTheme ? "вкл" : "выкл"}
               </button>
               <label className="ml-auto flex items-center gap-2 text-sm">
                 Скорость
